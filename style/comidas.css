@@ -1,0 +1,74 @@
+/*Marcellus SC*/
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Carter+One&family=Marcellus+SC&family=Mitr:wght@200;300;400;500;600;700&family=Passion+One:wght@400;700;900&display=swap');
+/*Old Standard TT*/
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Carter+One&family=Marcellus+SC&family=Mitr:wght@200;300;400;500;600;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Passion+One:wght@400;700;900&display=swap');
+
+body {
+    background: #FFF8E1;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+}
+h2 {
+    color: #000;
+
+text-align: left;
+padding: 15px;
+font-family: "Marcellus SC";
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+}
+img {
+    width: 300px;
+    padding-right: 40px;
+    width: 440px;
+    height: 323px;
+    border-radius: 25px;
+}
+.doces-salgados {
+    color: #616161;
+
+text-align: center;
+font-family: "Marcellus SC";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+}
+.macaron-frango {
+    color: #616161;
+
+text-align: center;
+font-family: "Marcellus SC";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+}
+@media (max-width: 767px) { 
+    main {
+        text-align: center;
+        display: inline-block;
+        align-items: center;
+        max-width: 800px;
+    }
+    .doces {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    img {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 780px) {
+    img {
+        width: 330px;
+        height: 270px;
+    }
+}
