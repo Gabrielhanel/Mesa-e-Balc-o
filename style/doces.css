@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Carter+One&family=Marcellus+SC&family=Mitr:wght@200;300;400;500;600;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Passion+One:wght@400;700;900&display=swap');
 body {
     background: #FFF8E1;
-    width: 1400px;
+    width: 1250px;;
 }
 .title {
     color: #000;
@@ -20,7 +20,7 @@ main {
     flex-wrap: wrap;
 }
 
-@media(min-width:760px) and (max-width: 1400px) {
+@media(min-width:760px) and (max-width: 1200px) {
     body {
         max-width: 760px;
     }
