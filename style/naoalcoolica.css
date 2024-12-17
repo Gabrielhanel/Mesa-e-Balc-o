@@ -1,0 +1,67 @@
+/*Marcellus SC*/
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Carter+One&family=Marcellus+SC&family=Mitr:wght@200;300;400;500;600;700&family=Passion+One:wght@400;700;900&display=swap');
+/*Old Standard TT*/
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Carter+One&family=Marcellus+SC&family=Mitr:wght@200;300;400;500;600;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Passion+One:wght@400;700;900&display=swap');
+body {
+    background: #FFF8E1;
+    width: 1400px;
+}
+.title {
+    color: #000;
+    text-align: left;
+    padding: 15px;
+    font-family: 'Marcellus SC';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(min-width:760px) and (max-width: 1400px) {
+    body {
+        max-width: 760px;
+    }
+    main {
+        flex-wrap: wrap;
+        display: inline-flex;
+        ; }
+}
+@media(max-width:750px) {
+    body {
+        width: 380px;
+    }
+    main {
+        max-width: 800px;
+        display: inline-block;
+        }
+    section {
+        min-width: 300px;
+    }
+}
+
+section img {
+    border-radius: 25px;
+    width: 291px;
+    height: 260px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+section {
+    padding: 30px;
+    margin: auto;
+}
+section > a {
+    color: #000;
+display: inline-block;
+text-align: center;
+font-family: 'Marcellus SC';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+max-width: 300px;
+text-decoration: none;
+}
