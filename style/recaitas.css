@@ -86,6 +86,7 @@ body {
     padding-left: 25px;
     color: #616161;
     font-size: 20px;
+    width: 200px;
 }
 .modo-preparopai {
     display: flex;
@@ -112,6 +113,7 @@ body {
     color: #616161;
     font-size: 20px;
     padding: 15px;
+    width: 550px;
 }
 .historia {
     display: flex;
@@ -148,7 +150,61 @@ body {
     user-select: none;
     padding-left: 50px;
    }
-   
+   .divlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   .linkref {
+    cursor: pointer;
+    text-decoration: none;
+    color: #707070;
+    font-family: 'Marcellus SC';
+    padding-bottom: 15px;
+    padding-top: 20px;
+   }
+   .linkref:hover {
+    color: #4b4a4a;
+   }
+   @media(max-width:450px) {
+    .fotocomida {
+        width: 200px;
+        height: 150px;
+    }
+    .title {
+        font-size: 27px;
+    }
+    .divtime {
+        display: block;
+    }
+    .divtimeelements {
+        padding-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .time {
+        width: 53px;
+        height: 57px;
+    }
+    .timetext {
+        padding-left: 15px;
+        width: 200px;
+}
+    .coluna {
+        columns: 1;
+    }
+    .ingredientetexto {
+        width: 200px;
+    }
+    .textopreparo {
+        width: 250px;
+    }
+    .historiatexto {
+        width: 300px;
+    }
+
+    }
    /* Create a custom checkbox */
    .checkmark {
     position: relative;
@@ -192,7 +248,7 @@ body {
     transform: rotate(45deg);
     animation: bounceFadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
    }
-   
+
    @keyframes bounceFadeIn {
     from {
      transform: translate(0, -10px) rotate(45deg);
