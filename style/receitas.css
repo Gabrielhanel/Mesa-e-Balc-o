@@ -189,8 +189,8 @@ body {
     }
     .timetext {
         padding-left: 15px;
-        width: 200px;
-}
+        width: 200px; 
+    }
     .coluna {
         columns: 1;
     }
@@ -203,7 +203,9 @@ body {
     .historiatexto {
         width: 300px;
     }
-
+    .imagempudim {
+        max-width: 290px;
+    }
     }
    /* Create a custom checkbox */
    .checkmark {
@@ -261,3 +263,22 @@ body {
     }
    }
    /* ------------------------------- */
+   /*PUDIM*/
+   .imagempudim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    border-radius: 17%;
+   }
+   .divpudim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .textopudim {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Marcellus';
+    font-weight: normal;
+   }
