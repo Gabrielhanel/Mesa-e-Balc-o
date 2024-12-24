@@ -206,6 +206,9 @@ body {
     .imagempudim {
         max-width: 290px;
     }
+    .textobombom {
+        font-size: 18px;
+    }
     }
    /* Create a custom checkbox */
    .checkmark {
@@ -282,3 +285,19 @@ body {
     font-family: 'Marcellus';
     font-weight: normal;
    }
+   /* _______________________________ */
+   /*BOMBOM DE MORANGO NA TRAVESSA*/
+   .decoracaobombom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 17%;
+   }
+   .textobombom {
+    text-align: center;
+    padding-bottom: 17px;
+    font-family: 'Marcellus';
+    font-weight: normal;
+   }
+   /*___________________________________*/
