@@ -173,7 +173,6 @@ body {
     }
     .title {
         font-size: 27px;
-        max-width: 340px;
     }
     .divtime {
         display: block;
@@ -209,6 +208,9 @@ body {
     }
     .textobombom {
         font-size: 18px;
+    }
+    .decoracaobombom {
+        max-width: 270px;
     }
     }
    /* Create a custom checkbox */
