@@ -173,6 +173,7 @@ body {
     }
     .title {
         font-size: 27px;
+        max-width: 340px;
     }
     .divtime {
         display: block;
