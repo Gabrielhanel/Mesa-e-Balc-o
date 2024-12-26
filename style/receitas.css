@@ -220,6 +220,13 @@ body {
         padding-right: 10px;
         width: 350px;
     }
+    .imagemmousse {
+        max-width: 250px;
+    }
+    .textomousse {
+        padding: 10px 20px;
+        max-width: 300px;
+    }
     }
    /* Create a custom checkbox */
    .checkmark {
@@ -295,6 +302,7 @@ body {
     padding-bottom: 20px;
     font-family: 'Marcellus', serif;
     font-weight: normal;
+    color: #616161;
    }
    /* _______________________________ */
    /*BOMBOM DE MORANGO NA TRAVESSA*/
@@ -323,4 +331,29 @@ body {
     color: #616161;
     font-weight: normal;
     font-size: 17px;
+   }
+   /*_____________________________________*/
+   /*MOUSSE DE LIMÃO*/
+   .imagemmousse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        border-radius: 17%;
+   }
+   .textomousse {
+    width: 390px;
+    font-family: 'Marcellus', serif;
+    color: #616161;
+    font-weight: normal;
+    font-size: 17px;
+    text-align: center;
+   }
+   .divmousse {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    margin-bottom: 20px;
    }
