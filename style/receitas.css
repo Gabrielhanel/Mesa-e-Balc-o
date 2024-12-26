@@ -21,7 +21,7 @@ body {
 .title {
     color: #000;
     text-align: center;
-    font-family: 'Marcellus SC';
+    font-family: 'Marcellus SC', serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -42,7 +42,7 @@ body {
 .timetext {
     color: #000;
     text-align: center;
-    font-family: 'Marcellus';
+    font-family: 'Marcellus', serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -62,7 +62,7 @@ body {
     font-size: 25px;
     color: #000000cb;
     text-align: center;
-    font-family: 'Marcellus';
+    font-family: 'Marcellus', serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -85,8 +85,9 @@ body {
 .ingredientetexto {
     padding-left: 25px;
     color: #616161;
-    font-size: 20px;
+    font-size: 18px;
     width: 200px;
+    font-family: 'Marcellus', serif;
 }
 .modo-preparopai {
     display: flex;
@@ -111,9 +112,10 @@ body {
 .textopreparo {
     padding-left: 25px;
     color: #616161;
-    font-size: 20px;
+    font-size: 18px;
     padding: 15px;
     width: 550px;
+    font-family: 'Marcellus', serif;
 }
 .historia {
     display: flex;
@@ -125,8 +127,9 @@ body {
     width: 400px;
     padding-left: 25px;
     color: #616161;
-    font-size: 19px;
+    font-size: 18px;
     padding: 15px;
+    font-family: 'Marcellus', serif;
 }
 .coberturas {
     text-align: center;
@@ -159,7 +162,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     color: #707070;
-    font-family: 'Marcellus SC';
+    font-family: 'Marcellus SC', serif;
     padding-bottom: 15px;
     padding-top: 20px;
    }
@@ -211,6 +214,11 @@ body {
     }
     .decoracaobombom {
         max-width: 270px;
+    }
+    .textopalha {
+        padding-left: 15px;
+        padding-right: 10px;
+        width: 350px;
     }
     }
    /* Create a custom checkbox */
@@ -285,7 +293,7 @@ body {
    .textopudim {
     text-align: center;
     padding-bottom: 20px;
-    font-family: 'Marcellus';
+    font-family: 'Marcellus', serif;
     font-weight: normal;
    }
    /* _______________________________ */
@@ -300,7 +308,19 @@ body {
    .textobombom {
     text-align: center;
     padding-bottom: 17px;
-    font-family: 'Marcellus';
+    font-family: 'Marcellus', serif;
     font-weight: normal;
+    color: #616161;
    }
    /*___________________________________*/
+   /*PALHA ITALIANA*/
+   .palhaimg {
+    width: 40px;
+   }
+   .textopalha {
+    width: 390px;
+    font-family: 'Marcellus', serif;
+    color: #616161;
+    font-weight: normal;
+    font-size: 17px;
+   }
