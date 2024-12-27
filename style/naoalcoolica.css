@@ -65,3 +65,7 @@ font-weight: 400;
 max-width: 300px;
 text-decoration: none;
 }
+a:hover {
+    color: rgb(37, 93, 93);
+    cursor: pointer;
+}

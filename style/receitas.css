@@ -356,3 +356,7 @@ body {
     text-align: center; 
     margin-bottom: 20px;
    }
+   a:hover {
+    color: rgb(83, 123, 123);
+    cursor: pointer;
+}

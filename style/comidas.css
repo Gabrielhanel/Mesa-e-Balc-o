@@ -72,3 +72,7 @@ text-decoration: none;
         height: 270px;
     }
 }
+a:hover {
+    color: rgb(83, 123, 123);
+    cursor: pointer;
+}
