@@ -67,7 +67,6 @@ body {
     font-weight: 400;
 }
 .coluna {
-    padding-top: 10px;
     columns: 2;
     align-items: center;
     justify-content: center;
@@ -86,7 +85,7 @@ body {
     padding-left: 25px;
     color: #616161;
     font-size: 18px;
-    width: 200px;
+    width: 150px;
     font-family: 'Marcellus', serif;
 }
 .modo-preparopai {
