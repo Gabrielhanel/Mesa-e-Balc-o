@@ -17,6 +17,7 @@ body {
     width: 250px;
     height: 200px;
     border-radius: 300px;
+    object-fit: cover;
 }
 .title {
     color: #000;
@@ -378,3 +379,17 @@ body {
     font-family: 'Marcellus', serif;
 }
 /*--------------------------------------*/
+.textocarbonara {
+    width: 320px;
+    text-align: center;
+    color: #616161;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: normal;
+    font-family: 'Marcellus', serif;
+}
+.carbonaradiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
