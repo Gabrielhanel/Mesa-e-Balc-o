@@ -393,3 +393,21 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* NHOQUE */
+.nhoque-ingredientes-title {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Marcellus', serif;
+    font-weight: normal;
+    font-size: 21px;
+}
+.ingredientetexto-n {
+    padding-left: 25px;
+    color: #616161;
+    font-size: 17px;
+    width: 250px;
+    font-family: 'Marcellus', serif;
+}
+.nhoquediv {
+    padding-bottom: 0px;
+}
