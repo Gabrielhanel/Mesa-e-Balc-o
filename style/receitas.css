@@ -411,10 +411,19 @@ body {
 .nhoquediv {
     padding-bottom: 0px;
 }
+/* CARBONARA */
 .ingredientetexto-c {
     padding-left: 25px;
     color: #616161;
     font-size: 17px;
     width: 320px;
+    font-family: 'Marcellus', serif;
+}
+/*--------------------------*/
+.ingredientetexto-f {
+    padding-left: 25px;
+    color: #616161;
+    font-size: 17px;
+    width: 250px;
     font-family: 'Marcellus', serif;
 }
