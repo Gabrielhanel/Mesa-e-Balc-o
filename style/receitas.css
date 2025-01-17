@@ -4,8 +4,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Carter+One&family=Marcellus+SC&family=Mitr:wght@200;300;400;500;600;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Passion+One:wght@400;700;900&display=swap');
 /*Marcellus*/
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Carter+One&family=Marcellus&family=Marcellus+SC&family=Mitr:wght@200;300;400;500;600;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Passion+One:wght@400;700;900&display=swap');
+
 body {
     background-color: #FFF8E1;
+    scroll-behavior: smooth;
+}
+html {
+    /* defer to OS preference */
+    color-scheme: dark light;
+  
+    /* override, assuming the theme toggler sets a data-theme attribute */
+    &[data-theme=light] { color-scheme: light; }
+    &[data-theme=dark] { color-scheme: dark; }
+
+    /*scroll*/
+    scroll-behavior: smooth;
 }
 .capa {
     display: flex;
@@ -87,6 +100,13 @@ body {
     color: #616161;
     font-size: 18px;
     width: 160px;
+    font-family: 'Marcellus', serif;
+}
+.ingredientetexto-fernet {
+    padding-left: 25px;
+    color: #616161;
+    font-size: 18px;
+    width: 220px;
     font-family: 'Marcellus', serif;
 }
 .modo-preparopai {
