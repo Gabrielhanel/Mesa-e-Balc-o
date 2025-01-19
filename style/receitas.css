@@ -49,6 +49,13 @@ html {
     padding-right: 20px;
     display: flex;
 }
+.divtimeelements-bebidas {
+    padding-right: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 .time {
     width: 53px;
     height: 57px;
@@ -445,5 +452,13 @@ html {
     color: #616161;
     font-size: 17px;
     width: 250px;
+    font-family: 'Marcellus', serif;
+}
+
+.ingredientetexto-chocolate {
+    padding-left: 25px;
+    color: #616161;
+    font-size: 18px;
+    width: 360px;
     font-family: 'Marcellus', serif;
 }
